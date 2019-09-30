@@ -1,0 +1,12 @@
+body{
+
+    background-color: grey;
+
+}
+#main-footer{
+
+   position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    background-color: blue;
+}
