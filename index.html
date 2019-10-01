@@ -7,26 +7,31 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
- 
-    <div class="pos-f-t">
-        <div class="collapse" id="navbarToggleExternalContent">
-          <div class="bg-dark p-4">
-              <ul>
-                  <li href="">Facebook</li>
-                  <li href="">Twitter</li>
-                  <li href="">Send to 911</li>
-                  <li href="">Get Weather Report</li> 
-
-                </ul>
-          </div>
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png"> 
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Weather Report</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Facebook</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Twitter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">9-1-1</a>
+            </li>
+          </ul>
         </div>
-        <nav class="navbar navbar-dark bg-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </nav>
-      </div>
+      </nav>
       <div class="main-button">
           <div  class="alert">
               <button class="button" id="map-event" onclick="getLocation()">Click Here</button>

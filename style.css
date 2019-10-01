@@ -3,6 +3,9 @@ body{
     background-color: grey;
 
 }
+#nav-item{
+    text-align: end;
+}
 #main-footer{
 
    position: fixed;
