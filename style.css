@@ -1,7 +1,11 @@
 body{
 
     background-color: grey;
+    
 
+}
+#nav-item{
+    text-align: end;
 }
 #main-footer{
 
@@ -27,3 +31,6 @@ body{
         border: 1px solid red;
     background-color: red;
 }
+html { height: 100% }
+   body { height: 100%; margin: 0; padding: 0 }
+   #map { height: 100% }
