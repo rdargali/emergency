@@ -106,6 +106,27 @@ html { height: 100% }
     font-size: 16px;
 
   }
+  strong{
+
+    color: white;
+    font-size: 28px;
+
+  }
+  .text-box{
+    max-width: 1000px;
+    max-height: 500px;
+    text-align: left;
+    text-indent: 2px;
+    margin-left: 20vw;
+    margin-top: 25vh;
+    border: 5px solid salmon;
+    border-radius: 15px;
+    background-image: repeating-linear-gradient(to right, rgb(141, 83, 83), rgb(150, 106, 106), rgb(226, 195, 195));
+    opacity: 0.5;
+    font-weight: bold;
+    font-size: 20px;
+
+  }
 .form-style-2{
 	max-width: 500px;
 	padding: 20px 12px 10px 20px;
