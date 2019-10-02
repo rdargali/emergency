@@ -1,8 +1,4 @@
-// var emergencyButton = document.getElementById('map-event');
-// console.log(emergencyButton)
-// emergencyButton.addEventListener('click', function(){
-//    console.log("nothing")
-// });
+
 
 var map, infoWindow;
 
