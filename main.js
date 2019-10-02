@@ -1,5 +1,4 @@
 
-
 var map, infoWindow;
 
       function initMap() {
