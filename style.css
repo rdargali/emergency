@@ -1,36 +1,69 @@
-body{
-
-    background-color: grey;
-    
-
+body {
+    margin: 0%;
+    background-color: #fac8d0!important;
 }
-#nav-item{
-    text-align: end;
-}
-#main-footer{
 
-   position: fixed;
-    bottom: 0px;
-    width: 100vw;
-    background-color: blue;
+.navbar {
+    background-color:transparent !important;
+    position: fixed!important ;
+    width: 100%;
+    z-index: 10;
+}
+.main-context {
+    z-index: 1;
+}
+.empty-container {
+    padding-top: 350px;
 }
 .main-button{
-
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        height: 80vh;
-        
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 70vh;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 .button{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: rgb(211, 91, 91);
+    box-shadow:
+        0 0 0 100px rgb(226, 187, 187),
+        0 0 0 200px rgb(153, 99, 99),
+        0 0 0 300px rgb(143, 72, 72);
+}
+.button:hover{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: rgb(187, 87, 87);
+    box-shadow:
+        0 0 0 100px rgb(172, 119, 119),
+        0 0 0 200px rgb(112, 65, 65),
+        0 0 0 300px rgb(146, 56, 56);
+}
+.card .btn {
+    background-color: green !important;
+    color: #F3E0DC !important;
+    border: 0 !important;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#main-footer {
+    background-color: transparent;
+    border: 0;
 
-        height: 300px;
-        width: 300px;
-        border-radius: 50%;
-        border: 1px solid red;
-    background-color: red;
+        
 }
 html { height: 100% }
    body { height: 100%; margin: 0; padding: 0 }
    #map { height: 100% }
+
+.footer {
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height:90px;
+}
