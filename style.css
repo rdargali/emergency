@@ -336,13 +336,28 @@ cursor:pointer
   font-size: 20px;
 
 }
-.container {
+.responsive {
+  width: 100%;
+}
+
+.weather-container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 70vh;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+}
+.weather-header, #summary {
+  color: #F3E0DC !important;
+  text-shadow: 2px 2px rgb(146, 56, 56);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px !important;
+  letter-spacing: 2px;
+}
+.weather-header {
+  text-decoration: underline;
+}
+#summary {
+  margin-top: 10px;
 }
 
 figure {

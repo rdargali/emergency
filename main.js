@@ -101,7 +101,7 @@ function getWeather () {
         var temp = json.currently.temperature
         
         
-    return `Today's forecast is ${temp} and ${summary}`
+    return ` ${temp} and ${summary}`
         
     }).then(function(result) {
         summaryParagraph.textContent = result
