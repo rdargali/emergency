@@ -1,6 +1,6 @@
 body {
-    margin: 0%;
-    background-color: #fac8d0!important;
+    margin: 0%; 
+    background-image: repeating-linear-gradient(to right, rgb(141, 83, 83), rgb(150, 106, 106), rgb(226, 195, 195));
 }
 
 .navbar {
@@ -14,6 +14,9 @@ body {
 }
 .empty-container {
     padding-top: 350px;
+}
+.empty-space {
+    padding-top: 200px;
 }
 .main-button{
     display: flex;
@@ -46,6 +49,7 @@ body {
         0 0 0 300px rgb(146, 56, 56);
 }
 .card .btn {
+    font-family: arial;
     background-color: green !important;
     color: #F3E0DC !important;
     border: 0 !important;
@@ -54,11 +58,152 @@ body {
 #main-footer {
     background-color: transparent;
     border: 0;
-
+        
 }
+html { height: 100% }
+   body { height: 100%; margin: 0; padding: 0 }
+   #map { height: 100% }
+
 .footer {
     position: absolute;
     bottom:0;
     width:100%;
+
     height:90px;
 }
+
+html { height: 100% }
+  body { height: 100%; margin: 0; padding: 0 }
+  #map { height: 100% }
+
+#map-event {
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+}
+.grid {
+    display: flex;                       /* establish flex container */
+    flex-wrap: wrap;                     /* enable flex items to wrap */
+    justify-content: space-around;
+    background-color: rgb(170, 93, 93);
+    padding-top: 5px; 
+    
+  }
+  .cell {
+    flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: #999;
+  }
+  .cell:nth-child(3n) {
+    background-color: #999;
+  }
+  .phone-button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+  }
+  strong{
+
+    color: white;
+    font-size: 28px;
+
+  }
+  .text-box{
+    max-width: 1000px;
+    max-height: 500px;
+    text-align: left;
+    text-indent: 2px;
+    margin-left: 20vw;
+    margin-top: 25vh;
+    border: 5px solid salmon;
+    border-radius: 15px;
+    background-image: repeating-linear-gradient(to right, rgb(141, 83, 83), rgb(150, 106, 106), rgb(226, 195, 195));
+    opacity: 0.5;
+    font-weight: bold;
+    font-size: 20px;
+
+  }
+.form-style-2{
+	max-width: 500px;
+	padding: 20px 12px 10px 20px;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+.form-style-2-heading{
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 15px;
+	padding-bottom: 3px;
+}
+.form-style-2 label{
+	display: block;
+	margin: 0px 0px 15px 0px;
+}
+.form-style-2 label > span{
+	width: 100px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+.form-style-2 span.required{
+	color:red;
+}
+.form-style-2 .tel-number-field{
+	width: 40px;
+	text-align: center;
+}
+.form-style-2 input.input-field, .form-style-2 .select-field{
+	width: 48%;	
+}
+.form-style-2 input.input-field, 
+.form-style-2 .tel-number-field, 
+.form-style-2 .textarea-field, 
+ .form-style-2 .select-field{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	-moz-box-shadow: 1px 1px 4px #EBEBEB;
+	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 7px;
+	outline: none;
+}
+.form-style-2 .input-field:focus, 
+.form-style-2 .tel-number-field:focus, 
+.form-style-2 .textarea-field:focus,  
+.form-style-2 .select-field:focus{
+	border: 1px solid #0C0;
+}
+.form-style-2 .textarea-field{
+	height:100px;
+	width: 55%;
+}
+.form-style-2 input[type=submit],
+.form-style-2 input[type=button]{
+	border: none;
+	padding: 8px 15px 8px 15px;
+	background: #FF8500;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA;
+	-moz-box-shadow: 1px 1px 4px #DADADA;
+	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.form-style-2 input[type=submit]:hover,
+.form-style-2 input[type=button]:hover{
+	background: #EA7B00;
+	color: #fff;
+}
+
