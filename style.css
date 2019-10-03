@@ -88,52 +88,13 @@ html { height: 100% }
     font-family: arial;
     font-size: 25px;
 }
-.grid {
-    display: flex;                       /* establish flex container */
-    flex-wrap: wrap;                     /* enable flex items to wrap */
-    justify-content: space-around;
-    background-color: rgb(170, 93, 93);
-    padding-top: 5px; 
-    
-  }
-  .cell {
-    flex: 0 0 32%;                       /* don't grow, don't shrink, width */
-    height: 50px;
-    margin-bottom: 5px;
-    background-color: #999;
-  }
-  .cell:nth-child(3n) {
-    background-color: #999;
-  }
-  .phone-button {
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-
-  }
   strong{
 
     color: white;
     font-size: 28px;
 
   }
-  .text-box{
-    max-width: 1000px;
-    max-height: 500px;
-    text-align: left;
-    text-indent: 2px;
-    margin-left: 20vw;
-    margin-top: 25vh;
-    border: 5px solid salmon;
-    border-radius: 15px;
-    background-image: repeating-linear-gradient(to right, rgb(141, 83, 83), rgb(150, 106, 106), rgb(226, 195, 195));
-    opacity: 0.5;
-    font-weight: bold;
-    font-size: 20px;
 
-  }
 .form-style-2{
 	max-width: 500px;
 	padding: 20px 12px 10px 20px;
@@ -353,4 +314,18 @@ cursor:pointer
     background-color: transparent;
     margin-right: 18px;
     margin-top: 18px;
+}
+
+.text-box {
+  text-align: left;
+  text-indent: 2px;
+  border-top: 5px solid salmon;
+  border-radius: 15px;
+  border-bottom: 5px solid salmon;
+  border-radius: 15px;
+  background-image: repeating-linear-gradient(to right, rgb(141, 83, 83), rgb(150, 106, 106), rgb(226, 195, 195));
+  opacity: 0.5;
+  font-weight: bold;
+  font-size: 20px;
+
 }
