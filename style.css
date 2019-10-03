@@ -9,6 +9,12 @@ body {
     width: 100%;
     z-index: 10;
 }
+.navbar .nav-item a {
+  color: #F3E0DC !important;
+  text-shadow: 2px 2px rgb(146, 56, 56);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+}
 .main-context {
     z-index: 1;
 }
