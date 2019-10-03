@@ -1,6 +1,8 @@
 
 var map, infoWindow;
 
+
+
       function initMap() {
           var center = {lat: -34.397, lng: 150.644}
         map = new google.maps.Map(document.getElementById('map'), {
@@ -37,6 +39,8 @@ var map, infoWindow;
         }
       }
 
+      
+
       function handleLocationError(browserHasGeolocation, infoWindow, pos) {
         infoWindow.setPosition(pos);
         infoWindow.setContent(browserHasGeolocation ?
@@ -46,7 +50,7 @@ var map, infoWindow;
       }
 
       
-      google.maps.event.addDomListener(window, 'load', initMap)
+      
       
 
       //Function To Display Popup
@@ -76,17 +80,17 @@ function redirect(){
     setTimeout(function(){
         window.location.href="http://127.0.0.1:5500/emergency/ontheway.html"
     }, 1000);
-}
+};
 
-var summaryParagraph = document.getElementById("summary")
+var summaryParagraph = document.getElementById("summary");
 
-var icons = new Skycons({"color": "orange"});
+//var icons = new Skycons({"color": "orange"});
 
-icons.set("clear-day", Skycons.CLEAR_DAY);
+//icons.set("clear-day", Skycons.CLEAR_DAY);
 
-icons.play();
+//icons.play();
 
-
+console.log("potatoes")
 function getWeather () {
     
     fetch ('https:cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/3fcc451edcabf896a9d04e1468f76ebf/29.7604,-95.3698')
@@ -107,3 +111,4 @@ function getWeather () {
 getWeather()
 // summaryParagraph.textContent = getWeather()
 
+google.maps.event.addDomListener(window, 'load', initMap)
