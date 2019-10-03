@@ -48,3 +48,32 @@ var map, infoWindow;
       
       google.maps.event.addDomListener(window, 'load', initMap)
       
+
+      //Function To Display Popup
+function div_show() {
+    document.getElementById('abc').style.display = "block";
+    }
+    // Validating Empty Field
+
+
+
+    
+    //Function To Display Popup
+    function div_show() {
+    document.getElementById('abc').style.display = "block";
+    }
+    //Function to Hide Popup
+    function div_hide(){
+    document.getElementById('abc').style.display = "none";
+    }
+
+    
+
+function redirect(){
+
+    alert('Your Information has been sent to 911!');
+
+    setTimeout(function(){
+        window.location.href="http://127.0.0.1:5500/emergency/ontheway.html"
+    }, 1000);
+}

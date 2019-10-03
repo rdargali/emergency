@@ -9,6 +9,13 @@ body {
     width: 100%;
     z-index: 10;
 }
+.navbar .nav-item a {
+  color: #F3E0DC !important;
+  text-shadow: 2px 2px rgb(146, 56, 56);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+
+}
 .main-context {
     z-index: 1;
 }
@@ -47,6 +54,7 @@ body {
         0 0 0 100px rgb(172, 119, 119),
         0 0 0 200px rgb(112, 65, 65),
         0 0 0 300px rgb(146, 56, 56);
+    transform: translateY(4px)
 }
 .card .btn {
     font-family: arial;
@@ -81,52 +89,19 @@ html { height: 100% }
     font-family: arial;
     font-size: 25px;
 }
-.grid {
-    display: flex;                       /* establish flex container */
-    flex-wrap: wrap;                     /* enable flex items to wrap */
-    justify-content: space-around;
-    background-color: rgb(170, 93, 93);
-    padding-top: 5px; 
-    
-  }
-  .cell {
-    flex: 0 0 32%;                       /* don't grow, don't shrink, width */
-    height: 50px;
-    margin-bottom: 5px;
-    background-color: #999;
-  }
-  .cell:nth-child(3n) {
-    background-color: #999;
-  }
-  .phone-button {
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-
-  }
   strong{
 
     color: white;
     font-size: 28px;
+    
+  }
+  strong{
+
+    border: 5px solid transparent;
+    padding: 5px;
 
   }
-  .text-box{
-    max-width: 1000px;
-    max-height: 500px;
-    text-align: left;
-    text-indent: 2px;
-    margin-left: 20vw;
-    margin-top: 25vh;
-    border: 5px solid salmon;
-    border-radius: 15px;
-    background-image: repeating-linear-gradient(to right, rgb(141, 83, 83), rgb(150, 106, 106), rgb(226, 195, 195));
-    opacity: 0.5;
-    font-weight: bold;
-    font-size: 20px;
 
-  }
 .form-style-2{
 	max-width: 500px;
 	padding: 20px 12px 10px 20px;
@@ -206,4 +181,158 @@ html { height: 100% }
 	background: #EA7B00;
 	color: #fff;
 }
+@import "http://fonts.googleapis.com/css?family=Raleway";
+/*----------------------------------------------
+CSS settings for HTML div Exact Center
+------------------------------------------------*/
+#abc {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto
+}
+img#close {
+position:absolute;
+right:-14px;
+top:-14px;
+cursor:pointer
+}
+div#popupContact {
+position:absolute;
+left:50%;
+top:23%;
+margin-left:-350px;
+font-family:'Raleway',sans-serif
+}
+form {
+max-width:600px;
+min-width:600px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:#fff
+}
+p {
+margin-top:30px
+}
+h2 {
+background-color:#FEFFED;
+padding:20px 35px;
+margin:-10px -50px;
+text-align:center;
+border-radius:10px 10px 0 0
+}
+hr {
+margin:10px -50px;
+border:0;
+border-top:1px solid #ccc
+}
+input[type=text] {
+width:82%;
+padding:10px;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+font-family:raleway
+}
+#name {
 
+background-repeat:no-repeat;
+background-position:5px 7px;
+margin-left: 50px;
+}
+#email {
+
+background-repeat:no-repeat;
+background-position:5px 7px;
+margin-left: 50px;
+}
+#address {
+   
+    background-repeat:no-repeat;
+    background-position:5px 7px;
+    margin-left: 50px;
+    }
+#phone {
+    
+    background-repeat:no-repeat;
+    background-position:5px 7px;
+    margin-left: 50px;
+    }
+#msg{
+
+margin-left: 50px;
+
+}
+textarea {
+
+background-repeat:no-repeat;
+background-position:5px 7px;
+width:82%;
+height:95px;
+padding:10px;
+resize:none;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+font-family:raleway;
+margin-bottom:30px
+}
+#submit {
+text-decoration:none;
+width:90%;
+margin-left: 10;
+text-align:center;
+display:block;
+background-color:#FFBC00;
+color:#fff;
+border:1px solid #FFCB00;
+padding:10px 0;
+font-size:20px;
+cursor:pointer;
+border-radius:5px
+}
+span {
+color:red;
+font-weight:700
+}
+button {
+width:10%;
+height:45px;
+border-radius:3px;
+background-color:#cd853f;
+color:#fff;
+font-family:'Raleway',sans-serif;
+font-size:18px;
+cursor:pointer
+}
+#close{
+
+    max-width: 30px;
+    max-height: 30px;
+    background-color: transparent;
+    margin-right: 18px;
+    margin-top: 18px;
+}
+
+.text-box {
+  text-align: left;
+  text-indent: 2px;
+  border-top: 5px solid salmon;
+  border-radius: 15px;
+  border-bottom: 5px solid salmon;
+  border-radius: 15px;
+  background-image: repeating-linear-gradient(to right, rgb(141, 83, 83), rgb(150, 106, 106), rgb(226, 195, 195));
+  opacity: 0.5;
+  font-weight: bold;
+  font-size: 20px;
+
+}
