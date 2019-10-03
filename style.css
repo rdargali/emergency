@@ -9,6 +9,12 @@ body {
     width: 100%;
     z-index: 10;
 }
+.navbar .nav-item a {
+  color: #F3E0DC !important;
+  text-shadow: 2px 2px rgb(146, 56, 56);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+}
 .main-context {
     z-index: 1;
 }
@@ -47,6 +53,7 @@ body {
         0 0 0 100px rgb(172, 119, 119),
         0 0 0 200px rgb(112, 65, 65),
         0 0 0 300px rgb(146, 56, 56);
+    transform: translateY(4px)
 }
 .card .btn {
     font-family: arial;
