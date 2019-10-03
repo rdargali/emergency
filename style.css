@@ -336,3 +336,17 @@ cursor:pointer
   font-size: 20px;
 
 }
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 70vh;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+figure {
+margin: 5em auto;
+width: 350px;
+height: 150px;
+}
