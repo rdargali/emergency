@@ -350,3 +350,13 @@ margin: 5em auto;
 width: 350px;
 height: 150px;
 }
+@media (max-width: 800px) {
+    #form {
+      margin: 10px 0;
+    }
+  
+    #form{
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
