@@ -75,5 +75,5 @@ function redirect(){
 
     setTimeout(function(){
         window.location.href="http://127.0.0.1:5500/emergency/ontheway.html"
-    }, 2000);
+    }, 1000);
 }
