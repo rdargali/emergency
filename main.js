@@ -77,7 +77,7 @@ function redirect(){
     alert('Your Information has been sent to 911!');
 
     setTimeout(function(){
-        window.location.href="http://127.0.0.1:5500/emergency/ontheway.html"
+        window.location.href="https://ontheway.html"
     }, 1000);
 };
 
