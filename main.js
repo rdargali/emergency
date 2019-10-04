@@ -93,7 +93,7 @@ function getWeather () {
         return response.json();
     }).then(function(json) { 
         var summary = json.currently.summary
-        var temp = json.currently.temperature
+        var temp = json.currently.temperature + ' F°'
         
         
     return ` ${temp} and ${summary}`
