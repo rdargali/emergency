@@ -77,7 +77,7 @@ function redirect(){
     alert('Your Information has been sent to 911!');
 
     setTimeout(function(){
-        window.location.href="https://ontheway.html"
+        window.location.href="https://github.com/darroyo97/crisishelp/blob/master/ontheway.html"
     }, 1000);
 };
 
@@ -85,10 +85,10 @@ var summaryParagraph = document.getElementById("summary");
 
 
 
-console.log("potatoes")
+
 function getWeather () {
     
-    fetch ('https:cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/3fcc451edcabf896a9d04e1468f76ebf/29.7604,-95.3698')
+    fetch ('https://api.darksky.net/forecast/3fcc451edcabf896a9d04e1468f76ebf/29.7604,-95.3698')
     .then(function(response) {
         return response.json();
     }).then(function(json) { 
