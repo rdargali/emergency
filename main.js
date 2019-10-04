@@ -77,7 +77,7 @@ function redirect(){
     alert('Your Information has been sent to 911!');
 
     setTimeout(function(){
-        window.location.href="https://github.com/darroyo97/crisishelp/blob/master/ontheway.html"
+        window.location.href="https://darroyo97.github.io/crisishelp/ontheway.html"
     }, 1000);
 };
 
