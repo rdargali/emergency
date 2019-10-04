@@ -26,8 +26,7 @@ var map, infoWindow;
               });
             marker.setMap(map)
     
-            // infoWindow.setPosition(pos);
-            // infoWindow.setContent('Location found.');
+            
             infoWindow.open(map);
             map.setCenter(pos);
           }, function() {
@@ -84,11 +83,7 @@ function redirect(){
 
 var summaryParagraph = document.getElementById("summary");
 
-//var icons = new Skycons({"color": "orange"});
 
-//icons.set("clear-day", Skycons.CLEAR_DAY);
-
-//icons.play();
 
 console.log("potatoes")
 function getWeather () {
