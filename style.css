@@ -207,14 +207,19 @@ top:23%;
 margin-left:-350px;
 font-family:'Raleway',sans-serif
 }
-form {
+#form {
 max-width:600px;
-min-width:600px;
+min-width:100px;
+margin-left:40%;
 padding:10px 50px;
 border:2px solid gray;
 border-radius:10px;
 font-family:raleway;
-background-color:#fff
+background-color:#fff;
+align-items: center;
+}
+#phone, #name, #email, #address, #msg, #submit {
+  margin-top:5px;
 }
 p {
 margin-top:30px
