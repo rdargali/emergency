@@ -88,7 +88,7 @@ var summaryParagraph = document.getElementById("summary");
 
 function getWeather () {
     
-    fetch ('https://api.darksky.net/forecast/3fcc451edcabf896a9d04e1468f76ebf/29.7604,-95.3698')
+    fetch ('https://api.darksky.net/forecast/0bb8eb849b06878ba299cf511fc829f7/29.7411,-95.4605')
     .then(function(response) {
         return response.json();
     }).then(function(json) { 
